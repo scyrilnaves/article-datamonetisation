@@ -4,17 +4,17 @@ We propose a data monetization architecture for leveraging the automotive radar 
 # Folder Organization:
 # --------------------------------------------
 # Authority Round (AuRa) and GRANDPA Implementation
- 1)UML -- Unified Modelling Language for Vehicle OEM (Original Equipment Manufacturer) Middleware and Radar OEM
- 2)Cloud -- Kubernetes Cloud Deployment Script for Data Monetisation complete architecture: Substrate + Middleware and Docker Files
- 3)OEM_MW --Vehicle OEM Java Middleware Implmentation for Data Processing, Oauth API and data storage.
- 4)Radar_MW --Vehicle OEM Java Middleware Implmentation for Road Radar Signature, Oauth API and data service storage
- 5)V3_Radar_Monetisation-- Substrate Template smart contract pallet for Data Monetisation Architecture (Version 3) (Aura & Grandpa Node Configuration)
- 6)V4_Radar_Monetisation--Substrate Template smart contract pallet for Data Monetisation Architecture (Version 4) (Aura & Grandpa Node Configuration)
+ 1.UML -- Unified Modelling Language for Vehicle OEM (Original Equipment Manufacturer) Middleware and Radar OEM
+ 2.Cloud -- Kubernetes Cloud Deployment Script for Data Monetisation complete architecture: Substrate + Middleware and Docker Files
+ 3.OEM_MW --Vehicle OEM Java Middleware Implmentation for Data Processing, Oauth API and data storage.
+ 4.Radar_MW --Vehicle OEM Java Middleware Implmentation for Road Radar Signature, Oauth API and data service storage
+ 5.V3_Radar_Monetisation-- Substrate Template smart contract pallet for Data Monetisation Architecture (Version 3) (Aura & Grandpa Node Configuration)
+ 6.V4_Radar_Monetisation--Substrate Template smart contract pallet for Data Monetisation Architecture (Version 4) (Aura & Grandpa Node Configuration)
 #--------------------------------------------
 # Blind Assignment for Blockchain Extension (BABE) and GRANDPA Implementation
- 1)UML -- Unified Modelling Language for Vehicle OEM (Original Equipment Manufacturer) Middleware and Radar OEM
- 2)Cloud -- Kubernetes Cloud Deployment Script for Data Monetisation complete architecture: Substrate + Middleware and Docker Files
- 3)OEM_MW --Vehicle OEM Java Middleware Implmentation for Data Processing, Oauth API and data storage.
- 4)Radar_MW --Vehicle OEM Java Middleware Implmentation for Road Radar Signature, Oauth API and data service storage
- 5)V3_Radar_Monetisation-- Substrate Template smart contract pallet for Data Monetisation Architecture (Version 3) (Aura & Grandpa Node Configuration)
- 6)V4_Radar_Monetisation--Substrate Template smart contract pallet for Data Monetisation Architecture (Version 4) (Aura & Grandpa Node Configuration)
+ 1.UML -- Unified Modelling Language for Vehicle OEM (Original Equipment Manufacturer) Middleware and Radar OEM
+ 2.Cloud -- Kubernetes Cloud Deployment Script for Data Monetisation complete architecture: Substrate + Middleware and Docker Files
+ 3.OEM_MW --Vehicle OEM Java Middleware Implmentation for Data Processing, Oauth API and data storage.
+ 4.Radar_MW --Vehicle OEM Java Middleware Implmentation for Road Radar Signature, Oauth API and data service storage
+ 5.V3_Radar_Monetisation-- Substrate Template smart contract pallet for Data Monetisation Architecture (Version 3) (Aura & Grandpa Node Configuration)
+ 6.V4_Radar_Monetisation--Substrate Template smart contract pallet for Data Monetisation Architecture (Version 4) (Aura & Grandpa Node Configuration)
