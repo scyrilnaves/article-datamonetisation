@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1862px" preserveAspectRatio="none" style="width:1574px;height:1862px;background:#DDDDDD;" version="1.1" viewBox="0 0 1574 1862" width="1574px" zoomAndPan="magnify"><defs/><g><rect fill="#DDDDDD" height="26.2969" id="_title" rx="3.5" ry="3.5" style="stroke:none;stroke-width:1.0;" width="169" x="698.5" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="159" x="703.5" y="27.9951">Asset Monetisation</text><line style="stroke:#454645;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="53" x2="53" y1="118.5938" y2="1781.8359"/><line style="stroke:#454645;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="974" x2="974" y1="118.5938" y2="1781.8359"/><line style="stroke:#454645;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1099" x2="1099" y1="118.5938" y2="1781.8359"/><line style="stroke:#454645;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1218" x2="1218" y1="118.5938" y2="1781.8359"/><line style="stroke:#454645;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1331" x2="1331" y1="118.5938" y2="1781.8359"/><line style="stroke:#454645;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1431" x2="1431" y1="118.5938" y2="1781.8359"/><line style="stroke:#454645;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1517" x2="1517" y1="118.5938" y2="1781.8359"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="8" y="115.292">DataMarket</text><ellipse cx="53.5" cy="50.7969" fill="#0000FF" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M53.5,58.7969 L53.5,85.7969 M40.5,66.7969 L66.5,66.7969 M53.5,85.7969 L40.5,100.7969 M53.5,85.7969 L66.5,100.7969 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="8" y="1793.8311">DataMarket</text><ellipse cx="53.5" cy="1805.6328" fill="#0000FF" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M53.5,1813.6328 L53.5,1840.6328 M40.5,1821.6328 L66.5,1821.6328 M53.5,1840.6328 L40.5,1855.6328 M53.5,1840.6328 L66.5,1855.6328 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="917" y="115.292">Vehicle_OEM_A</text><ellipse cx="974.5" cy="50.7969" fill="#008000" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M974.5,58.7969 L974.5,85.7969 M961.5,66.7969 L987.5,66.7969 M974.5,85.7969 L961.5,100.7969 M974.5,85.7969 L987.5,100.7969 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="917" y="1793.8311">Vehicle_OEM_A</text><ellipse cx="974.5" cy="1805.6328" fill="#008000" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M974.5,1813.6328 L974.5,1840.6328 M961.5,1821.6328 L987.5,1821.6328 M974.5,1840.6328 L961.5,1855.6328 M974.5,1840.6328 L987.5,1855.6328 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1042" y="115.292">Vehicle_OEM_B</text><ellipse cx="1099.5" cy="50.7969" fill="#008000" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1099.5,58.7969 L1099.5,85.7969 M1086.5,66.7969 L1112.5,66.7969 M1099.5,85.7969 L1086.5,100.7969 M1099.5,85.7969 L1112.5,100.7969 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1042" y="1793.8311">Vehicle_OEM_B</text><ellipse cx="1099.5" cy="1805.6328" fill="#008000" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1099.5,1813.6328 L1099.5,1840.6328 M1086.5,1821.6328 L1112.5,1821.6328 M1099.5,1840.6328 L1086.5,1855.6328 M1099.5,1840.6328 L1112.5,1855.6328 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1167" y="115.292">Radar_OEM_A</text><ellipse cx="1218.5" cy="50.7969" fill="#FFFF00" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1218.5,58.7969 L1218.5,85.7969 M1205.5,66.7969 L1231.5,66.7969 M1218.5,85.7969 L1205.5,100.7969 M1218.5,85.7969 L1231.5,100.7969 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1167" y="1793.8311">Radar_OEM_A</text><ellipse cx="1218.5" cy="1805.6328" fill="#FFFF00" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1218.5,1813.6328 L1218.5,1840.6328 M1205.5,1821.6328 L1231.5,1821.6328 M1218.5,1840.6328 L1205.5,1855.6328 M1218.5,1840.6328 L1231.5,1855.6328 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1280" y="115.292">Radar_OEM_B</text><ellipse cx="1331.5" cy="50.7969" fill="#FFFF00" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1331.5,58.7969 L1331.5,85.7969 M1318.5,66.7969 L1344.5,66.7969 M1331.5,85.7969 L1318.5,100.7969 M1331.5,85.7969 L1344.5,100.7969 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1280" y="1793.8311">Radar_OEM_B</text><ellipse cx="1331.5" cy="1805.6328" fill="#FFFF00" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1331.5,1813.6328 L1331.5,1840.6328 M1318.5,1821.6328 L1344.5,1821.6328 M1331.5,1840.6328 L1318.5,1855.6328 M1331.5,1840.6328 L1344.5,1855.6328 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1393" y="115.292">Vehicle_A</text><ellipse cx="1431" cy="50.7969" fill="#A52A2A" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1431,58.7969 L1431,85.7969 M1418,66.7969 L1444,66.7969 M1431,85.7969 L1418,100.7969 M1431,85.7969 L1444,100.7969 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1393" y="1793.8311">Vehicle_A</text><ellipse cx="1431" cy="1805.6328" fill="#A52A2A" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1431,1813.6328 L1431,1840.6328 M1418,1821.6328 L1444,1821.6328 M1431,1840.6328 L1418,1855.6328 M1431,1840.6328 L1444,1855.6328 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1479" y="115.292">Vehicle_B</text><ellipse cx="1517" cy="50.7969" fill="#A52A2A" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1517,58.7969 L1517,85.7969 M1504,66.7969 L1530,66.7969 M1517,85.7969 L1504,100.7969 M1517,85.7969 L1530,100.7969 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1479" y="1793.8311">Vehicle_B</text><ellipse cx="1517" cy="1805.6328" fill="#A52A2A" rx="8" ry="8" style="stroke:#454645;stroke-width:0.5;"/><path d="M1517,1813.6328 L1517,1840.6328 M1504,1821.6328 L1530,1821.6328 M1517,1840.6328 L1504,1855.6328 M1517,1840.6328 L1530,1855.6328 " fill="none" style="stroke:#454645;stroke-width:0.5;"/><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="149.1602"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="149.1602" y2="149.1602"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="152.1602" y2="152.1602"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="168" x="699.5" y="138.5938"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="149" x="705.5" y="154.6606">Data Demand Start</text><polygon fill="#008000" points="64.5,188.8594,54.5,192.8594,64.5,196.8594,60.5,192.8594" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="1217.5" y1="192.8594" y2="192.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="70.5" y="187.7935">Need Radar Data</text><path d="M7,209.3594 L7,227.3594 A3.5,3.5 0 0 0 10.5,230.8594 L1260.5,230.8594 A3.5,3.5 0 0 0 1264,227.3594 L1264,215.8594 L1254,205.8594 L10.5,205.8594 A3.5,3.5 0 0 0 7,209.3594 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1254,205.8594 L1254,214.1094 A1.75,1.75 0 0 0 1255.75,215.8594 L1264,215.8594 L1254,205.8594 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="414" x="424" y="222.9263">Data according to location, Type, Speed of Vehicle, Price of Data</text><polygon fill="#454645" points="962.5,253.125,972.5,257.125,962.5,261.125,966.5,257.125" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="53.5" x2="968.5" y1="257.125" y2="257.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="60.5" y="252.0591">BroadCast Data Demand</text><polygon fill="#454645" points="1087.5,282.2578,1097.5,286.2578,1087.5,290.2578,1091.5,286.2578" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="53.5" x2="1093.5" y1="286.2578" y2="286.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="60.5" y="281.1919">BroadCast Data Demand</text><polygon fill="#454645" points="985.5,311.3906,975.5,315.3906,985.5,319.3906,981.5,315.3906" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="1419,311.3906,1429,315.3906,1419,319.3906,1423,315.3906" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="979.5" x2="1425" y1="315.3906" y2="315.3906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="225" x="991.5" y="310.3247">Get Consent for Data monetisation</text><path d="M929,331.8906 L929,349.8906 A3.5,3.5 0 0 0 932.5,353.3906 L1472.5,353.3906 A3.5,3.5 0 0 0 1476,349.8906 L1476,338.3906 L1466,328.3906 L932.5,328.3906 A3.5,3.5 0 0 0 929,331.8906 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1466,328.3906 L1466,336.6406 A1.75,1.75 0 0 0 1467.75,338.3906 L1476,338.3906 L1466,328.3906 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="1078" y="345.4575">Vehicle Consents to transfer the data</text><polygon fill="#454645" points="1110.5,375.6563,1100.5,379.6563,1110.5,383.6563,1106.5,379.6563" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="1505,375.6563,1515,379.6563,1505,383.6563,1509,379.6563" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="1104.5" x2="1511" y1="379.6563" y2="379.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="225" x="1116.5" y="374.5903">Get Consent for Data monetisation</text><path d="M1054,396.1563 L1054,414.1563 A3.5,3.5 0 0 0 1057.5,417.6563 L1558.5,417.6563 A3.5,3.5 0 0 0 1562,414.1563 L1562,402.6563 L1552,392.6563 L1057.5,392.6563 A3.5,3.5 0 0 0 1054,396.1563 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1552,392.6563 L1552,400.9063 A1.75,1.75 0 0 0 1553.75,402.6563 L1562,402.6563 L1552,392.6563 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="1183.5" y="409.7231">Vehicle Consents to transfer the data</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="443.3555"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="443.3555" y2="443.3555"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="446.3555" y2="446.3555"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="154" x="706.5" y="432.7891"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="135" x="712.5" y="448.856">Data Demand End</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="486.4883"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="486.4883" y2="486.4883"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="489.4883" y2="489.4883"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="353" x="607" y="475.9219"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="334" x="613" y="491.9888">Asset as Non Fungible Token Offering Start</text><polygon fill="#454645" points="64.5,526.1875,54.5,530.1875,64.5,534.1875,60.5,530.1875" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="973.5" y1="530.1875" y2="530.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="357" x="70.5" y="525.1216">Create Asset_A  as Non Fungible Token for the Demand</text><path d="M5,546.6875 L5,564.6875 A3.5,3.5 0 0 0 8.5,568.1875 L1020.5,568.1875 A3.5,3.5 0 0 0 1024,564.6875 L1024,553.1875 L1014,543.1875 L8.5,543.1875 A3.5,3.5 0 0 0 5,546.6875 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1014,543.1875 L1014,551.4375 A1.75,1.75 0 0 0 1015.75,553.1875 L1024,553.1875 L1014,543.1875 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="528" x="246" y="560.2544">Asset Created according to criteria, expected price and intimated to Radar_OEM_A</text><polygon fill="#454645" points="64.5,590.4531,54.5,594.4531,64.5,598.4531,60.5,594.4531" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="1098.5" y1="594.4531" y2="594.4531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="395" x="70.5" y="589.3872">Create Asset_B along  as Non Fungible Token for the Demand</text><path d="M5,610.9531 L5,628.9531 A3.5,3.5 0 0 0 8.5,632.4531 L1145.5,632.4531 A3.5,3.5 0 0 0 1149,628.9531 L1149,617.4531 L1139,607.4531 L8.5,607.4531 A3.5,3.5 0 0 0 5,610.9531 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1139,607.4531 L1139,615.7031 A1.75,1.75 0 0 0 1140.75,617.4531 L1149,617.4531 L1139,607.4531 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="528" x="308.5" y="624.52">Asset Created according to criteria, expected price and intimated to Radar_OEM_A</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="658.1523"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="658.1523" y2="658.1523"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="661.1523" y2="661.1523"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="339" x="614" y="647.5859"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="320" x="620" y="663.6528">Asset as Non Fungible Token Offering End</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="701.2852"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="701.2852" y2="701.2852"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="704.2852" y2="704.2852"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="165" x="701" y="690.7188"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="146" x="707" y="706.7856">Bid for Asset Start</text><polygon fill="#454645" points="64.5,740.9844,54.5,744.9844,64.5,748.9844,60.5,744.9844" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="1217.5" y1="744.9844" y2="744.9844"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="70.5" y="739.9185">Submits an Encrypted Bid for the Asset_A</text><path d="M7,761.4844 L7,779.4844 A3.5,3.5 0 0 0 10.5,782.9844 L1260.5,782.9844 A3.5,3.5 0 0 0 1264,779.4844 L1264,767.9844 L1254,757.9844 L10.5,757.9844 A3.5,3.5 0 0 0 7,761.4844 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1254,757.9844 L1254,766.2344 A1.75,1.75 0 0 0 1255.75,767.9844 L1264,767.9844 L1254,757.9844 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="404" x="429" y="775.0513">Bid Price is encrypted with the public key of the Vehicle_OEM_A</text><polygon fill="#454645" points="64.5,805.25,54.5,809.25,64.5,813.25,60.5,809.25" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="1330.5" y1="809.25" y2="809.25"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="266" x="70.5" y="804.1841">Submits an Encrypted Bid for the Asset_B</text><path d="M7,825.75 L7,843.75 A3.5,3.5 0 0 0 10.5,847.25 L1373.5,847.25 A3.5,3.5 0 0 0 1377,843.75 L1377,832.25 L1367,822.25 L10.5,822.25 A3.5,3.5 0 0 0 7,825.75 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1367,822.25 L1367,830.5 A1.75,1.75 0 0 0 1368.75,832.25 L1377,832.25 L1367,822.25 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="403" x="486" y="839.3169">Bid Price is encrypted with the public key of the Vehicle_OEM_B</text><polygon fill="#454645" points="64.5,869.5156,54.5,873.5156,64.5,877.5156,60.5,873.5156" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="973.5" y1="873.5156" y2="873.5156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="605" x="70.5" y="868.4497">Accepts the Bid of Asset_A, amount of the bid is transferred from Radar_OEM_A to the Escrow</text><path d="M5,890.0156 L5,908.0156 A3.5,3.5 0 0 0 8.5,911.5156 L1020.5,911.5156 A3.5,3.5 0 0 0 1024,908.0156 L1024,896.5156 L1014,886.5156 L8.5,886.5156 A3.5,3.5 0 0 0 5,890.0156 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1014,886.5156 L1014,894.7656 A1.75,1.75 0 0 0 1015.75,896.5156 L1024,896.5156 L1014,886.5156 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="514" x="253" y="903.5825">Considering the Bid of Asset_B is over the price acceptable by the Radar_OEM_A</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="937.2148"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="937.2148" y2="937.2148"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="940.2148" y2="940.2148"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="151" x="708" y="926.6484"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="132" x="714" y="942.7153">Bid for Asset End</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="980.3477"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="980.3477" y2="980.3477"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="983.3477" y2="983.3477"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="357" x="605" y="969.7813"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="338" x="611" y="985.8481">Asset as Non Fungible Token Transfer Start</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="1023.4805"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1023.4805" y2="1023.4805"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1026.4805" y2="1026.4805"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="218" x="674.5" y="1012.9141"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="199" x="680.5" y="1028.981">Phase1: Data Aggregation</text><polygon fill="#454645" points="64.5,1063.1797,54.5,1067.1797,64.5,1071.1797,60.5,1067.1797" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="973.5" y1="1067.1797" y2="1067.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="445" x="70.5" y="1062.1138">Broadcast initimation to all the consented vehicles for Data Collection</text><polygon fill="#454645" points="985.5,1092.3125,975.5,1096.3125,985.5,1100.3125,981.5,1096.3125" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="979.5" x2="1430" y1="1096.3125" y2="1096.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="379" x="991.5" y="1091.2466">Uploads the radar data according to the criteria by offchain</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="1124.8789"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1124.8789" y2="1124.8789"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1127.8789" y2="1127.8789"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="330" x="618.5" y="1114.3125"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="306" x="624.5" y="1130.3794">Phase2: Proof of Radar Data for Assets</text><polygon fill="#454645" points="64.5,1164.5781,54.5,1168.5781,64.5,1172.5781,60.5,1168.5781" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="1430" y1="1168.5781" y2="1168.5781"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="590" x="70.5" y="1163.5122">Submits the Proof of the data transfered to the OEM Data Pool and initimates its completion</text><polygon fill="#454645" points="64.5,1193.7109,54.5,1197.7109,64.5,1201.7109,60.5,1197.7109" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="973.5" y1="1197.7109" y2="1197.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="897" x="70.5" y="1192.645">Collects the Raw data from the datapool and preprocesses it, submits the hash of the consolidated data as a proof ensuring the completion</text><path d="M5,1214.2109 L5,1232.2109 A3.5,3.5 0 0 0 8.5,1235.7109 L1020.5,1235.7109 A3.5,3.5 0 0 0 1024,1232.2109 L1024,1220.7109 L1014,1210.7109 L8.5,1210.7109 A3.5,3.5 0 0 0 5,1214.2109 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1014,1210.7109 L1014,1218.9609 A1.75,1.75 0 0 0 1015.75,1220.7109 L1024,1220.7109 L1014,1210.7109 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="687" x="166.5" y="1227.7778">After the final proof is submitted then the Oauth Acess token of the data pool is submitted to the platfform</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="1261.4102"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1261.4102" y2="1261.4102"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1264.4102" y2="1264.4102"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="489" x="539" y="1250.8438"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="465" x="545" y="1266.9106">Phase4: Offchain Transfer of Radar Data Oauth Acess Token</text><polygon fill="#454645" points="1206.5,1301.1094,1216.5,1305.1094,1206.5,1309.1094,1210.5,1305.1094" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="53.5" x2="1212.5" y1="1305.1094" y2="1305.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="480" x="60.5" y="1300.0435">Offchain Worker submits the Oauth Access Token as a webservice request</text><path d="M7,1321.6094 L7,1339.6094 A3.5,3.5 0 0 0 10.5,1343.1094 L1260.5,1343.1094 A3.5,3.5 0 0 0 1264,1339.6094 L1264,1328.1094 L1254,1318.1094 L10.5,1318.1094 A3.5,3.5 0 0 0 7,1321.6094 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1254,1318.1094 L1254,1326.3594 A1.75,1.75 0 0 0 1255.75,1328.1094 L1264,1328.1094 L1254,1318.1094 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="834" x="214" y="1335.1763">Posting of the Oauth Access Token happens only when the individual proof of the vehicle and the final proof is submitted on chain</text><polygon fill="#454645" points="64.5,1365.375,54.5,1369.375,64.5,1373.375,60.5,1369.375" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="1217.5" y1="1369.375" y2="1369.375"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="479" x="70.5" y="1364.3091">Acknowledges the reception of the Oauth Access Token to the datamarket</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="1397.9414"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1397.9414" y2="1397.9414"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1400.9414" y2="1400.9414"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="195" x="686" y="1387.375"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="171" x="692" y="1403.4419">Phase3: Fund Transfer</text><polygon fill="#454645" points="962.5,1437.6406,972.5,1441.6406,962.5,1445.6406,966.5,1441.6406" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="53.5" x2="968.5" y1="1441.6406" y2="1441.6406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="639" x="60.5" y="1436.5747">Transfers the amount as a comission of Bid Facilitation process from the Escrow to the Vehicle OEM</text><path d="M5,1458.1406 L5,1476.1406 A3.5,3.5 0 0 0 8.5,1479.6406 L1020.5,1479.6406 A3.5,3.5 0 0 0 1024,1476.1406 L1024,1464.6406 L1014,1454.6406 L8.5,1454.6406 A3.5,3.5 0 0 0 5,1458.1406 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1014,1454.6406 L1014,1462.8906 A1.75,1.75 0 0 0 1015.75,1464.6406 L1024,1464.6406 L1014,1454.6406 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="625" x="197.5" y="1471.7075">Transfer condition needs the Vehicle_OEM to submit the proof and the Asset Oauth Access Token</text><polygon fill="#454645" points="1419,1501.9063,1429,1505.9063,1419,1509.9063,1423,1505.9063" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="53.5" x2="1425" y1="1505.9063" y2="1505.9063"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="578" x="60.5" y="1500.8403">Transfers the amount as a reward of the radar data sold from the escrow to the Vehicle A</text><path d="M14,1522.4063 L14,1540.4063 A3.5,3.5 0 0 0 17.5,1543.9063 L1466.5,1543.9063 A3.5,3.5 0 0 0 1470,1540.4063 L1470,1528.9063 L1460,1518.9063 L17.5,1518.9063 A3.5,3.5 0 0 0 14,1522.4063 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1460,1518.9063 L1460,1527.1563 A1.75,1.75 0 0 0 1461.75,1528.9063 L1470,1528.9063 L1460,1518.9063 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="918" x="278.5" y="1535.9731">Transfer condition needs the Vehicle to submit a valid data submitting the individual proof as well as the acknowledgement of the Vehicle_OEM</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="1569.6055"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1569.6055" y2="1569.6055"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1572.6055" y2="1572.6055"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="317" x="625" y="1559.0391"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="293" x="631" y="1575.106">Phase4: Finalisation of Asset Transfer</text><polygon fill="#454645" points="1206.5,1609.3047,1216.5,1613.3047,1206.5,1617.3047,1210.5,1613.3047" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="53.5" x2="1212.5" y1="1613.3047" y2="1613.3047"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="574" x="60.5" y="1608.2388">Transfers the ownership of the Non Fungible Asset Token and finalises the Asset Transfer</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="1641.8711"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1641.8711" y2="1641.8711"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1644.8711" y2="1644.8711"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="300" x="633.5" y="1631.3047"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="276" x="639.5" y="1647.3716">Phase5: Review of Asset Transfered</text><polygon fill="#454645" points="64.5,1681.5703,54.5,1685.5703,64.5,1689.5703,60.5,1685.5703" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="58.5" x2="1217.5" y1="1685.5703" y2="1685.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="463" x="70.5" y="1680.5044">Submits the review of the data transferred as Non Fungible Asset Token</text><path d="M7,1702.0703 L7,1720.0703 A3.5,3.5 0 0 0 10.5,1723.5703 L1260.5,1723.5703 A3.5,3.5 0 0 0 1264,1720.0703 L1264,1708.5703 L1254,1698.5703 L10.5,1698.5703 A3.5,3.5 0 0 0 7,1702.0703 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><path d="M1254,1698.5703 L1254,1706.8203 A1.75,1.75 0 0 0 1255.75,1708.5703 L1264,1708.5703 L1254,1698.5703 " fill="#90EE90" style="stroke:#181818;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="523" x="369.5" y="1715.6372">Review of the Non Fungible Asset Token helps in valuing the fidelity of the actors.</text><rect fill="#EEEEEE" height="3" rx="3.5" ry="3.5" style="stroke:#EEEEEE;stroke-width:1.0;" width="1567" x="0" y="1749.2695"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1749.2695" y2="1749.2695"/><line style="stroke:#454645;stroke-width:0.5;" x1="0" x2="1567" y1="1752.2695" y2="1752.2695"/><rect fill="#EEEEEE" height="23.1328" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.0;" width="343" x="612" y="1738.7031"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="324" x="618" y="1754.77">Asset as Non Fungible Token Transfer End</text><!--MD5=[72abbfa45daec3bf0927829b1bc9d177]
+@startuml
+!theme toy
+title Asset Monetisation
+
+actor DataMarket #blue
+actor Vehicle_OEM_A #green
+actor Vehicle_OEM_B #green
+actor Radar_OEM_A #yellow
+actor Radar_OEM_B #yellow
+actor Vehicle_A #brown
+actor Vehicle_B #brown
+
+== Data Demand Start ==
+Radar_OEM_A-[#green]->DataMarket:Need Radar Data
+note over Radar_OEM_A,DataMarket: Data according to location, Type, Speed of Vehicle, Price of Data
+
+DataMarket-> Vehicle_OEM_A: BroadCast Data Demand
+DataMarket-> Vehicle_OEM_B: BroadCast Data Demand
+
+Vehicle_OEM_A<-> Vehicle_A: Get Consent for Data monetisation
+note over Vehicle_OEM_A,Vehicle_A: Vehicle Consents to transfer the data
+Vehicle_OEM_B<-> Vehicle_B: Get Consent for Data monetisation
+note over Vehicle_OEM_B,Vehicle_B: Vehicle Consents to transfer the data
+== Data Demand End ==
+
+== Asset as Non Fungible Token Offering Start ==
+Vehicle_OEM_A->DataMarket:Create Asset_A  as Non Fungible Token for the Demand
+note over Vehicle_OEM_A,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+Vehicle_OEM_B->DataMarket:Create Asset_B along  as Non Fungible Token for the Demand
+note over Vehicle_OEM_B,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+== Asset as Non Fungible Token Offering End ==
+
+== Bid for Asset Start ==
+Radar_OEM_A->DataMarket: Submits an Encrypted Bid for the Asset_A
+note over Radar_OEM_A,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_A
+Radar_OEM_B->DataMarket: Submits an Encrypted Bid for the Asset_B
+note over Radar_OEM_B,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_B
+Vehicle_OEM_A->DataMarket: Accepts the Bid of Asset_A, amount of the bid is transferred from Radar_OEM_A to the Escrow
+note over Vehicle_OEM_A,DataMarket: Considering the Bid of Asset_B is over the price acceptable by the Radar_OEM_A
+== Bid for Asset End ==
+
+== Asset as Non Fungible Token Transfer Start ==
+
+==Phase1: Data Aggregation ==
+Vehicle_OEM_A->DataMarket: Broadcast initimation to all the consented vehicles for Data Collection
+Vehicle_A->Vehicle_OEM_A: Uploads the radar data according to the criteria by offchain
+
+== Phase2: Proof of Radar Data for Assets  ==
+Vehicle_A->DataMarket: Submits the Proof of the data transfered to the OEM Data Pool and initimates its completion
+Vehicle_OEM_A->DataMarket: Collects the Raw data from the datapool and preprocesses it, submits the hash of the consolidated data as a proof ensuring the completion
+note over Vehicle_OEM_A,DataMarket: After the final proof is submitted then the Oauth Acess token of the data pool is submitted to the platfform
+
+== Phase4: Offchain Transfer of Radar Data Oauth Acess Token  ==
+DataMarket->Radar_OEM_A: Offchain Worker submits the Oauth Access Token as a webservice request
+note over DataMarket,Radar_OEM_A: Posting of the Oauth Access Token happens only when the individual proof of the vehicle and the final proof is submitted on chain
+Radar_OEM_A->DataMarket: Acknowledges the reception of the Oauth Access Token to the datamarket
+
+== Phase3: Fund Transfer  ==
+DataMarket->Vehicle_OEM_A:Transfers the amount as a comission of Bid Facilitation process from the Escrow to the Vehicle OEM
+note over DataMarket,Vehicle_OEM_A: Transfer condition needs the Vehicle_OEM to submit the proof and the Asset Oauth Access Token
+DataMarket->Vehicle_A: Transfers the amount as a reward of the radar data sold from the escrow to the Vehicle A
+note over DataMarket,Vehicle_A: Transfer condition needs the Vehicle to submit a valid data submitting the individual proof as well as the acknowledgement of the Vehicle_OEM
+
+== Phase4: Finalisation of Asset Transfer  ==
+DataMarket->Radar_OEM_A: Transfers the ownership of the Non Fungible Asset Token and finalises the Asset Transfer
+
+== Phase5: Review of Asset Transfered  ==
+Radar_OEM_A->DataMarket: Submits the review of the data transferred as Non Fungible Asset Token
+note over Radar_OEM_A,DataMarket: Review of the Non Fungible Asset Token helps in valuing the fidelity of the actors.
+
+== Asset as Non Fungible Token Transfer End ==
+@enduml
+
+@startuml
+skinparam BackgroundColor DDDDDD
+skinparam shadowing false
+skinparam RoundCorner 7
+skinparam ArrowColor 454645
+skinparam FontColor 454645
+skinparam SequenceLifeLineBorderColor 454645
+skinparam SequenceGroupHeaderFontColor 454645
+skinparam SequenceGroupFontColor 454645
+skinparam SequenceGroupBorderColor 454645
+skinparam SequenceGroupBorderThickness 1
+
+skinparam sequenceDivider {
+    BorderColor 454645
+    BorderThickness 1
+    FontColor 454645
+}
+
+skinparam participant {
+    BackgroundColor FF6F61
+    BorderColor 454645
+    FontColor White
+    BorderThickness 1.5
+}
+
+skinparam database {
+    BackgroundColor 98DDDE
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam entity {
+    BackgroundColor FFDA29
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam note {
+    BackgroundColor LightGreen
+    BorderColor 454645
+    FontColor 454645
+    BorderThickness 1
+}
+
+skinparam actor {
+    BackgroundColor 454645
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam boundary {
+    BackgroundColor FFDA29
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam control {
+    BackgroundColor FFDA29
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam collections {
+    BackgroundColor FF6F61
+    BorderColor 454645
+    FontColor 454645
+    BorderThickness 1.5
+}
+
+skinparam queue {
+    BackgroundColor FF6F61
+    BorderColor 454645
+    FontColor FFF
+    BorderThickness 1.5
+}
+title Asset Monetisation
+
+actor DataMarket #blue
+actor Vehicle_OEM_A #green
+actor Vehicle_OEM_B #green
+actor Radar_OEM_A #yellow
+actor Radar_OEM_B #yellow
+actor Vehicle_A #brown
+actor Vehicle_B #brown
+
+== Data Demand Start ==
+Radar_OEM_A-[#green]->DataMarket:Need Radar Data
+note over Radar_OEM_A,DataMarket: Data according to location, Type, Speed of Vehicle, Price of Data
+
+DataMarket-> Vehicle_OEM_A: BroadCast Data Demand
+DataMarket-> Vehicle_OEM_B: BroadCast Data Demand
+
+Vehicle_OEM_A<-> Vehicle_A: Get Consent for Data monetisation
+note over Vehicle_OEM_A,Vehicle_A: Vehicle Consents to transfer the data
+Vehicle_OEM_B<-> Vehicle_B: Get Consent for Data monetisation
+note over Vehicle_OEM_B,Vehicle_B: Vehicle Consents to transfer the data
+== Data Demand End ==
+
+== Asset as Non Fungible Token Offering Start ==
+Vehicle_OEM_A->DataMarket:Create Asset_A  as Non Fungible Token for the Demand
+note over Vehicle_OEM_A,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+Vehicle_OEM_B->DataMarket:Create Asset_B along  as Non Fungible Token for the Demand
+note over Vehicle_OEM_B,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+== Asset as Non Fungible Token Offering End ==
+
+== Bid for Asset Start ==
+Radar_OEM_A->DataMarket: Submits an Encrypted Bid for the Asset_A
+note over Radar_OEM_A,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_A
+Radar_OEM_B->DataMarket: Submits an Encrypted Bid for the Asset_B
+note over Radar_OEM_B,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_B
+Vehicle_OEM_A->DataMarket: Accepts the Bid of Asset_A, amount of the bid is transferred from Radar_OEM_A to the Escrow
+note over Vehicle_OEM_A,DataMarket: Considering the Bid of Asset_B is over the price acceptable by the Radar_OEM_A
+== Bid for Asset End ==
+
+== Asset as Non Fungible Token Transfer Start ==
+
+==Phase1: Data Aggregation ==
+Vehicle_OEM_A->DataMarket: Broadcast initimation to all the consented vehicles for Data Collection
+Vehicle_A->Vehicle_OEM_A: Uploads the radar data according to the criteria by offchain
+
+== Phase2: Proof of Radar Data for Assets  ==
+Vehicle_A->DataMarket: Submits the Proof of the data transfered to the OEM Data Pool and initimates its completion
+Vehicle_OEM_A->DataMarket: Collects the Raw data from the datapool and preprocesses it, submits the hash of the consolidated data as a proof ensuring the completion
+note over Vehicle_OEM_A,DataMarket: After the final proof is submitted then the Oauth Acess token of the data pool is submitted to the platfform
+
+== Phase4: Offchain Transfer of Radar Data Oauth Acess Token  ==
+DataMarket->Radar_OEM_A: Offchain Worker submits the Oauth Access Token as a webservice request
+note over DataMarket,Radar_OEM_A: Posting of the Oauth Access Token happens only when the individual proof of the vehicle and the final proof is submitted on chain
+Radar_OEM_A->DataMarket: Acknowledges the reception of the Oauth Access Token to the datamarket
+
+== Phase3: Fund Transfer  ==
+DataMarket->Vehicle_OEM_A:Transfers the amount as a comission of Bid Facilitation process from the Escrow to the Vehicle OEM
+note over DataMarket,Vehicle_OEM_A: Transfer condition needs the Vehicle_OEM to submit the proof and the Asset Oauth Access Token
+DataMarket->Vehicle_A: Transfers the amount as a reward of the radar data sold from the escrow to the Vehicle A
+note over DataMarket,Vehicle_A: Transfer condition needs the Vehicle to submit a valid data submitting the individual proof as well as the acknowledgement of the Vehicle_OEM
+
+== Phase4: Finalisation of Asset Transfer  ==
+DataMarket->Radar_OEM_A: Transfers the ownership of the Non Fungible Asset Token and finalises the Asset Transfer
+
+== Phase5: Review of Asset Transfered  ==
+Radar_OEM_A->DataMarket: Submits the review of the data transferred as Non Fungible Asset Token
+note over Radar_OEM_A,DataMarket: Review of the Non Fungible Asset Token helps in valuing the fidelity of the actors.
+
+== Asset as Non Fungible Token Transfer End ==
+@enduml
+
+PlantUML version 1.2022.9(Tue Sep 27 16:10:06 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

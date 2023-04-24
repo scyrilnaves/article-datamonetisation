@@ -1,0 +1,153 @@
+@startuml
+package com.renault.leat.radar_api {
+  class AssetFeedback {
+    - assetId : String
+    - assetToken : String
+    + AssetFeedback()
+    + getAssetId() : String
+    + getAssetToken() : String
+    + setAssetId(assetId : String)
+    + setAssetToken(assetToken : String)
+    + toString() : String
+  }
+  class AuthController {
+    - jwtHelper : JwtHelper
+    - passwordEncoder : PasswordEncoder
+    - userDetailsService : UserDetailsService
+    + AuthController(jwtHelper : JwtHelper, userDetailsService : UserDetailsService, passwordEncoder : PasswordEncoder)
+    + assetExists(username : String, password : String, assetId : String) : LoginResult
+    + assetServiceExists(username : String, password : String, assetServiceId : String) : LoginResult
+    + deployementStatus() : ResponseEntity<String>
+    + getAssetId(username : String, password : String) : ResponseEntity<String>
+    + getAssetServiceId(username : String, password : String) : ResponseEntity<String>
+    + getAssetServiceToken(username : String, password : String) : LoginResult
+    + getAssetServiceTokens(username : String, password : String) : ResponseEntity<String>
+    + getAssetToken(username : String, password : String) : LoginResult
+    + getAssetTokens(username : String, password : String) : ResponseEntity<String>
+    + getData() : ResponseEntity<RadarData>
+    + getDecryptedBid(username : String, password : String, encryptedData : String) : ResponseEntity<String>
+    + getEncryptedBid(username : String, password : String, data : String) : ResponseEntity<String>
+    + getPublicKey(username : String, password : String) : ResponseEntity<String>
+    + isDeployed(username : String, password : String) : ResponseEntity<String>
+    + login(username : String, password : String) : LoginResult
+    + postData(VehicleId : String, RadarData : String) : ResponseEntity<RadarData>
+    + setAssetServiceToken(username : String, password : String, AssetServiceId : String, AssetServiceToken : String) : ResponseEntity<AssetFeedback>
+    + setAssetToken(username : String, password : String, AssetId : String, AssetToken : String) : ResponseEntity<AssetFeedback>
+  }
+  class CryptoUtil {
+    - privatekeyfile : String {static}
+    - pubkeyfile : String {static}
+    - CryptoUtil()
+    + getDecryptedData(encryptedData : String, index : int) : String {static}
+    + getEncryptedData(data : String, index : int) : String {static}
+    + getFileFromResource(fileName : String) : File {static}
+    - getFileFromResourceAsStream(fileName : String) : File {static}
+    + getHash(data : String) : String {static}
+    + getKeyPair(index : int) : KeyPair {static}
+    + getPrivateKey(index : int) : PrivateKey {static}
+    + getPublicKey(index : int) : PublicKey {static}
+    + getPublicKeyString(index : int) : String {static}
+    + getSignature(index : int, message : String) : String {static}
+    + getUniqueIdentifier() : String {static}
+    + verify(index : int, signatureinput : String, message : String) : boolean {static}
+    + verify(pubKeyStr : String, signatureinput : String, message : String) : boolean {static}
+  }
+  class JwtConfiguration {
+    - keyAlias : String
+    - keyStorePassword : String
+    - keyStorePath : String
+    - log : Logger {static}
+    - logger : Logger {static}
+    - privateKeyPassphrase : String
+    + JwtConfiguration()
+    + JwtDecoder(rsaPublicKey : RSAPublicKey) : JwtDecoder
+    + jwtSigningKey(keyStore : KeyStore) : RSAPrivateKey
+    + jwtValidationKey(keyStore : KeyStore) : RSAPublicKey
+    + keyStore() : KeyStore
+  }
+  class JwtHelper {
+    - log : Logger {static}
+    - privateKey : RSAPrivateKey
+    - publicKey : RSAPublicKey
+    + JwtHelper(privateKey : RSAPrivateKey, publicKey : RSAPublicKey)
+    + createJwtForClaims(subject : String, claims : Map<String, String>) : String
+  }
+  class LoginResult {
+    - jwt : String
+    + LoginResult(jwt : String)
+    # canEqual(other : Object) : boolean
+    + equals(o : Object) : boolean
+    + getJWT() : String
+    + hashCode() : int
+    + setJwt(jwt : String)
+    + toString() : String
+  }
+  class MWProperty {
+    + radarOEMIndex : int {static}
+    + radarOEMURL : String {static}
+    + vehicleOEMIndex : int {static}
+    + vehicleOEMURL : String {static}
+    + MWProperty()
+  }
+  class RadarData {
+    - carId : String
+    - radarDetails : String
+    + RadarData()
+    + getCarId() : String
+    + getRadarDetails() : String
+    + setCarId(carId : String)
+    + setRadarDetails(radarDetail : String)
+    + toString() : String
+  }
+  class SecurityConfiguration {
+    + SecurityConfiguration()
+    + passwordEncoder() : PasswordEncoder
+  }
+  class Storage {
+    ~ assetIds : List<Integer> {static}
+    ~ assetIndex : AtomicInteger {static}
+    ~ assetRadarList : List<RadarData> {static}
+    ~ assetServiceIds : List<Integer> {static}
+    ~ assetServiceIndex : AtomicInteger {static}
+    ~ assetServiceTokens : List<AssetFeedback> {static}
+    ~ assetTokens : List<AssetFeedback> {static}
+    + Storage()
+    + addAssetId(inAssetId : Integer) {static}
+    + addAssetServiceId(inAssetServiceId : Integer) {static}
+    + addAssetServiceToken(inAssetFeedback : AssetFeedback) {static}
+    + addAssetToken(inAssetFeedback : AssetFeedback) {static}
+    + addRadarData(radarData : RadarData) {static}
+    + containsAssetId(assetId : String) : boolean {static}
+    + containsAssetServiceId(assetServiceId : String) : boolean {static}
+    + getAssetIds() : List<Integer> {static}
+    + getAssetIndex() : int {static}
+    + getAssetServiceIds() : List<Integer> {static}
+    + getAssetServiceIndex() : int {static}
+    + getAssetServiceTokens() : List<AssetFeedback> {static}
+    + getAssetTokens() : List<AssetFeedback> {static}
+    + getRadarData() : RadarData {static}
+    + incrementAssetIndex() {static}
+    + incrementAssetServiceIndex() {static}
+    + removeAssetId(astId : List<Integer>) {static}
+    + removeAssetServiceId(astServiceId : List<Integer>) {static}
+    + setAssetIds(inassetIds : List<Integer>) {static}
+    + setAssetServiceIds(inassetServiceIds : List<Integer>) {static}
+    + setAssetServiceTokens(inAssetServiceTokens : List<AssetFeedback>) {static}
+    + setAssetTokens(inAssetTokens : List<AssetFeedback>) {static}
+  }
+  class UserController {
+    - userDetailsService : UserDetailsService
+    + UserController(userDetailsService : UserDetailsService)
+    + getData(VehicleId : String, RadarData : String) : ResponseEntity<RadarData>
+    + getRadarData() : ResponseEntity<RadarData>
+    + getRadarService() : ResponseEntity<RadarData>
+    + getToken(AssetId : String, AssetToken : String) : ResponseEntity<AssetFeedback>
+    + getUser(authentication : Authentication) : UserDetails
+  }
+}
+Builder ..+ JWTCreator
+AuthController -->  "-jwtHelper" JwtHelper
+PublicKeyJwtDecoderBuilder ..+ NimbusJwtDecoder
+Storage -->  "-assetTokens" AssetFeedback
+Storage -->  "-assetRadarList" RadarData
+@enduml

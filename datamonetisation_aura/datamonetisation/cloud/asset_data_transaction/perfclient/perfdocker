@@ -1,0 +1,16 @@
+
+# docker build -f Dockerfile-installed-bionic -t projetsim/substrate-sim-transaction-js-local .
+
+# -------------=== build transaction js folder for benchmark ===-------------
+FROM node:18-slim
+
+COPY . /project
+
+WORKDIR /project/
+
+RUN npm install
+
+# RUN ./bin/genAccounts.js 10000 10
+
+ENTRYPOINT ["tail"]
+CMD ["-f","/dev/null"]

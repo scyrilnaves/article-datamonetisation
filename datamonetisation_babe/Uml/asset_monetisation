@@ -1,0 +1,72 @@
+@startuml
+!theme toy
+title Asset Monetisation
+
+actor DataMarket #blue
+actor Vehicle_OEM_A #green
+actor Vehicle_OEM_B #green
+actor Radar_OEM_A #yellow
+actor Radar_OEM_B #yellow
+actor Vehicle_A #brown
+actor Vehicle_B #brown
+
+== Data Demand Start ==
+Radar_OEM_A-[#green]->DataMarket:Need Radar Data
+note over Radar_OEM_A,DataMarket: Data according to location, Type, Speed of Vehicle, Price of Data
+
+DataMarket-> Vehicle_OEM_A: BroadCast Data Demand
+DataMarket-> Vehicle_OEM_B: BroadCast Data Demand
+
+Vehicle_OEM_A<-> Vehicle_A: Get Consent for Data monetisation
+note over Vehicle_OEM_A,Vehicle_A: Vehicle Consents to transfer the data
+Vehicle_OEM_B<-> Vehicle_B: Get Consent for Data monetisation
+note over Vehicle_OEM_B,Vehicle_B: Vehicle Consents to transfer the data
+== Data Demand End ==
+
+== Asset as Non Fungible Token Offering Start ==
+Vehicle_OEM_A->DataMarket:Create Asset_A  as Non Fungible Token for the Demand
+note over Vehicle_OEM_A,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+Vehicle_OEM_B->DataMarket:Create Asset_B along  as Non Fungible Token for the Demand
+note over Vehicle_OEM_B,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+== Asset as Non Fungible Token Offering End ==
+
+== Bid for Asset Start ==
+Radar_OEM_A->DataMarket: Submits an Encrypted Bid for the Asset_A
+note over Radar_OEM_A,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_A
+Radar_OEM_B->DataMarket: Submits an Encrypted Bid for the Asset_B
+note over Radar_OEM_B,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_B
+Vehicle_OEM_A->DataMarket: Accepts the Bid of Asset_A, amount of the bid is transferred from Radar_OEM_A to the Escrow
+note over Vehicle_OEM_A,DataMarket: Considering the Bid of Asset_B is over the price acceptable by the Radar_OEM_A
+== Bid for Asset End ==
+
+== Asset as Non Fungible Token Transfer Start ==
+
+==Phase1: Data Aggregation ==
+Vehicle_OEM_A->DataMarket: Broadcast initimation to all the consented vehicles for Data Collection
+Vehicle_A->Vehicle_OEM_A: Uploads the radar data according to the criteria by offchain
+
+== Phase2: Proof of Radar Data for Assets  ==
+Vehicle_A->DataMarket: Submits the Proof of the data transfered to the OEM Data Pool and initimates its completion
+Vehicle_OEM_A->DataMarket: Collects the Raw data from the datapool and preprocesses it, submits the hash of the consolidated data as a proof ensuring the completion
+note over Vehicle_OEM_A,DataMarket: After the final proof is submitted then the Oauth Acess token of the data pool is submitted to the platfform
+
+== Phase4: Offchain Transfer of Radar Data Oauth Acess Token  ==
+DataMarket->Radar_OEM_A: Offchain Worker submits the Oauth Access Token as a webservice request
+note over DataMarket,Radar_OEM_A: Posting of the Oauth Access Token happens only when the individual proof of the vehicle and the final proof is submitted on chain
+Radar_OEM_A->DataMarket: Acknowledges the reception of the Oauth Access Token to the datamarket
+
+== Phase3: Fund Transfer  ==
+DataMarket->Vehicle_OEM_A:Transfers the amount as a comission of Bid Facilitation process from the Escrow to the Vehicle OEM
+note over DataMarket,Vehicle_OEM_A: Transfer condition needs the Vehicle_OEM to submit the proof and the Asset Oauth Access Token
+DataMarket->Vehicle_A: Transfers the amount as a reward of the radar data sold from the escrow to the Vehicle A
+note over DataMarket,Vehicle_A: Transfer condition needs the Vehicle to submit a valid data submitting the individual proof as well as the acknowledgement of the Vehicle_OEM
+
+== Phase4: Finalisation of Asset Transfer  ==
+DataMarket->Radar_OEM_A: Transfers the ownership of the Non Fungible Asset Token and finalises the Asset Transfer
+
+== Phase5: Review of Asset Transfered  ==
+Radar_OEM_A->DataMarket: Submits the review of the data transferred as Non Fungible Asset Token
+note over Radar_OEM_A,DataMarket: Review of the Non Fungible Asset Token helps in valuing the fidelity of the actors.
+
+== Asset as Non Fungible Token Transfer End ==
+@enduml

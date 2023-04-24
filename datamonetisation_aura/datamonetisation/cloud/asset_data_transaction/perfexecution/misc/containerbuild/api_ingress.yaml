@@ -1,0 +1,123 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: vehicleapi
+  annotations:
+    field.cattle.io/description: Vehicle API
+    field.cattle.io/publicEndpoints: >-
+      [{"addresses":["192.168.111.11","192.168.111.12","192.168.111.13","192.168.111.21","192.168.111.22","192.168.111.23"],"port":80,"protocol":"HTTP","serviceName":"substrate-net:vehicleapi-http-service","ingressName":"substrate-net:vehicleapi","hostname":"vehicleapi.unice.cust.tasfrance.com","path":"/","allNodes":false}]
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/proxy-read-timeout: '3600'
+    nginx.ingress.kubernetes.io/proxy-send-timeout: '3600'
+    nginx.ingress.kubernetes.io/server-snippets: |-
+      |
+         location / {
+          proxy_set_header Upgrade $http_upgrade;
+          proxy_http_version 1.1;
+          proxy_set_header X-Forwarded-Host $http_host;
+          proxy_set_header X-Forwarded-Proto $scheme;
+          proxy_set_header X-Forwarded-For $remote_addr;
+          proxy_set_header Host $host;
+          proxy_set_header Connection "upgrade";
+          proxy_cache_bypass $http_upgrade;
+          }
+#    key: string
+  creationTimestamp: '2022-10-05T12:36:25Z'
+  generation: 2
+  labels:
+    {}
+#    key: string
+  managedFields:
+    - apiVersion: networking.k8s.io/v1beta1
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:status':
+          'f:loadBalancer':
+            'f:ingress': {}
+      manager: nginx-ingress-controller
+      operation: Update
+      time: '2022-10-05T12:37:05Z'
+    - apiVersion: extensions/v1beta1
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:metadata':
+          'f:annotations':
+            'f:field.cattle.io/publicEndpoints': {}
+      manager: rancher
+      operation: Update
+      time: '2022-10-05T12:37:05Z'
+    - apiVersion: networking.k8s.io/v1beta1
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:metadata':
+          'f:annotations':
+            .: {}
+            'f:field.cattle.io/description': {}
+            'f:kubernetes.io/ingress.class': {}
+            'f:nginx.ingress.kubernetes.io/proxy-read-timeout': {}
+            'f:nginx.ingress.kubernetes.io/proxy-send-timeout': {}
+            'f:nginx.ingress.kubernetes.io/server-snippets': {}
+        'f:spec':
+          'f:backend':
+            .: {}
+            'f:serviceName': {}
+            'f:servicePort': {}
+          'f:rules': {}
+      manager: rancher
+      operation: Update
+      time: '2022-10-05T15:03:29Z'
+#    - apiVersion: string
+#      fieldsType: string
+#      fieldsV1: io.k8s.apimachinery.pkg.apis.meta.v1.FieldsV1
+#      manager: string
+#      operation: string
+#      time: string
+  namespace: substrate-net
+  resourceVersion: '321598711'
+  selfLink: /apis/networking.k8s.io/v1beta1/namespaces/substrate-net/ingresses/vehicleapi
+  uid: 5c299be3-d231-45b2-bf8f-a7dbc2e61b15
+spec:
+  backend:
+    serviceName: vehicleapi-http-service
+    servicePort: 8080
+#    resource:
+#      apiGroup: string
+#      kind: string
+#      name: string
+  rules:
+    - host: vehicleapi.unice.cust.tasfrance.com
+      http:
+        paths:
+          - backend:
+              serviceName: vehicleapi-http-service
+              servicePort: 8080
+            path: /
+            pathType: Prefix
+#    - host: string
+#      http:
+#        paths:
+#          - backend:
+#              resource:
+#                apiGroup: string
+#                kind: string
+#                name: string
+#              serviceName: string
+#              servicePort: string
+#            path: string
+#            pathType: string
+  tls:
+#    - hosts:
+#        - string
+#      secretName: string
+#  ingressClassName: string
+status:
+  loadBalancer:
+    ingress:
+      - ip: 192.168.111.11
+      - ip: 192.168.111.12
+      - ip: 192.168.111.13
+      - ip: 192.168.111.21
+      - ip: 192.168.111.22
+      - ip: 192.168.111.23
+#      - hostname: string
+#        ip: string

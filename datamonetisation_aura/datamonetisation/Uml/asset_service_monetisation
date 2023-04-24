@@ -1,0 +1,68 @@
+@startuml
+!theme toy
+title Asset Service Monetisation
+
+actor DataMarket #blue
+actor Vehicle_OEM_A #green
+actor Vehicle_OEM_B #green
+actor Radar_OEM_A #yellow
+actor Radar_OEM_B #yellow
+actor Vehicle_A #brown
+actor Vehicle_B #brown
+
+== Road Radar Signature Service Demand Start ==
+Radar_OEM_A-[#green]->DataMarket: Create an Event for Road Radar Signature Service as an Asset
+note over Radar_OEM_A,DataMarket: Service according to location, Type, Speed of Vehicle, Price of Service Subscription
+
+DataMarket-> Vehicle_OEM_A: BroadCast Asset Service Demand
+DataMarket-> Vehicle_OEM_B: BroadCast Asset Service Demand
+
+Vehicle_OEM_A<-> Vehicle_A: Get Consent for Radar Service Offering
+note over Vehicle_OEM_A,Vehicle_A: Vehicle Consents to Road Radar Signature Service
+Vehicle_OEM_B<-> Vehicle_B: Get Consent for Radar Service Offering
+note over Vehicle_OEM_B,Vehicle_B: Vehicle Consents to Road Radar Signature Service
+== Road Radar Signature Service Demand End ==
+
+== Asset Service as Non Fungible Token Offering Start ==
+Radar_OEM_A->DataMarket:Create Asset_Service_A  as Non Fungible Asset Service Token for the Demand
+note over Radar_OEM_A,DataMarket:Asset Service: Road Radar Signature Created according to criteria, expected price and intimated to Vehicle_OEM_A
+== Asset Service as Non Fungible Token Offering End ==
+
+== Bid for Asset Service Start ==
+Vehicle_OEM_A->DataMarket: Submits an Encrypted Bid for the Asset_Service_A
+note over Vehicle_OEM_A,DataMarket: Bid Price is encrypted with the public key of the Radar_OEM_A
+Vehicle_OEM_B->DataMarket: Submits an Encrypted Bid for the Asset_Service_A
+note over Vehicle_OEM_B,DataMarket: Bid Price is encrypted with the public key of the Radar_OEM_B
+Radar_OEM_A->DataMarket: Accepts the Bid of Asset_Service_A, amount of the bid is transferred from Vehicle_A to the Escrow
+note over Radar_OEM_A,DataMarket: Considering the Bid by Vehicle_OEM_B is less the price acceptable by the Radar_OEM_A
+== Bid for Asset Service End ==
+
+== Asset Service as Non Fungible Token Transfer Start ==
+
+== Phase1: Proof of Radar Data Service for Assets  ==
+Radar_OEM_A->DataMarket: Submits the Oauth Access Token for the Road Radar Signature and initimates its completion
+Radar_OEM_A->DataMarket: Submits the hash of the consolidated data with Road Radar Signature as a proof ensuring the completion
+note over Radar_OEM_A,DataMarket: After the final proof is submitted then the Oauth Access token of the data pool is submitted to the platfform
+
+== Phase2: Offchain Transfer of Road Radar Signature Acess Token  ==
+DataMarket->Vehicle_OEM_A: Offchain Worker submits the Oauth Access Token as a webservice request
+note over DataMarket,Vehicle_OEM_A: Posting of the Oauth Access Token happens only when the proof of the Road Radar Signature is submitted on chain
+Vehicle_OEM_A->DataMarket: Acknowledges the reception of the Oauth Access Token to the datamarket
+Vehicle_OEM_A->Vehicle_A: Transfers the Oauth Access Token of the Road Radar Signature to the Vehicle as WebService
+Vehicle_A->DataMarket: Acknowledges the reception of the Oauth Access Token for the Road Radar Signature to the datamarket
+
+== Phase3: Fund Transfer  ==
+DataMarket->Radar_OEM_A: Transfers the amount as a reward of the Road Radar Signature offered from the escrow account
+note over DataMarket,Radar_OEM_A: Transfer condition needs the Radar_OEM to submit a valid Oauth Access token as well as the  hash proof of the Road Radar Signature
+DataMarket->Vehicle_OEM_A:Transfers the amount as a comission of Bid Facilitation process from the Escrow to the Vehicle_OEM
+
+
+== Phase4: Finalisation of Asset Service Transfer  ==
+DataMarket->Vehicle_A: Transfers the ownership of the Non Fungible Asset Service Token and finalises the Asset Transfer
+
+== Phase5: Review of Asset Service Transfered  ==
+Vehicle_A->DataMarket: Submits the review of the Road Radar Signature Asset Service transferred as Non Fungible Asset Token
+note over Vehicle_A,DataMarket: Review of the Non Fungible Asset Token helps in valuing the fidelity of the actors.
+
+== Asset Service as Non Fungible Token Transfer End ==
+@enduml

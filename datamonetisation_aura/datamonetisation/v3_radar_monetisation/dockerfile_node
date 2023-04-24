@@ -1,0 +1,61 @@
+ 
+ # docker login -u cyrilthese
+ 
+ #docker build -f dockerfile_node -t cyrilthese/datamonetisation .
+
+ #docker run cyrilthese/datamonetisation
+
+ #docker push cyrilthese/datamonetisation
+
+ # docker system prune -a
+
+# -------------=== cartp rust build ===-------------
+FROM ubuntu:bionic as substrate-node-sim-builder
+
+RUN apt-get update \
+ && apt-get install -y \
+ curl \
+ build-essential \
+ llvm \
+ clang
+
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y 
+
+ENV PATH=$PATH:/root/.cargo/bin
+
+RUN rustup default nightly
+
+RUN rustup target add wasm32-unknown-unknown --toolchain nightly
+
+COPY . /project
+
+#add rust cache
+#https://stackoverflow.com/a/58474618/13187605
+# RUN echo "fn main() {}" > dummy.rs
+# COPY Cargo.toml .
+# RUN sed -i 's#src/main.rs#dummy.rs#' Cargo.toml
+# RUN cargo build --release
+# RUN sed -i 's#dummy.rs#src/main.rs#' Cargo.toml
+#end rust cache 
+
+WORKDIR /project/
+
+RUN cargo build --release
+
+RUN cargo install cargo-deb
+RUN cargo deb -p node-template
+
+# -------------=== cartp rust docker build ===-------------
+FROM ubuntu:bionic
+
+COPY --from=substrate-node-sim-builder /project/target/debian/node-template_*.deb /tmp
+
+RUN apt-get update \
+ && dpkg -i /tmp/node-template_*.deb || true \
+ && apt-get -f -y install
+
+RUN apt-get -f -y install ca-certificates
+
+RUN node-template --help
+
+RUN echo "Executable available using: node-template <OPTIONS>"

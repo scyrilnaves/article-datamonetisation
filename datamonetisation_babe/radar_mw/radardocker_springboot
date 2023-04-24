@@ -1,0 +1,8 @@
+FROM openjdk:8-jdk-alpine
+
+COPY target/radarbuild.jar radarbuild.jar
+
+# HTTP PORT
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","/radarbuild.jar"]

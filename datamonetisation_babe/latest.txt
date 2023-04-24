@@ -1,0 +1,12 @@
+https://substrate.dev/docs/en/tutorials/add-contracts-pallet/
+
+https://github.com/paritytech/substrate/tree/v3.0.0/bin/node/runtime/src
+
+https://github.com/paritytech/substrate/blob/v3.0.0/bin/node/runtime/src/lib.rs
+
+https://github.com/paritytech/substrate/blob/v3.0.0/bin/node/runtime/Cargo.toml
+
+
+Babe
+
+https://substrate.dev/substrate-contracts-workshop/#/0/deploy-contract

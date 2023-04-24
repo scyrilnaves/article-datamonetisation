@@ -1,0 +1,15 @@
+https://teams.microsoft.com/_#/conversations/19:meeting_YWE3ZDcyZWEtNTU2OC00MTA5LWJmMTEtMjQ0MTIyNTMwNWM1@thread.v2?ctx=chat
+
+https://confluence.dt.renault.com/display/RSWL/Intra-Consortium+Data+Collection
+
+https://outlook.office.com/mail/inbox/id/AAQkADA1NTdjODJiLWVhYWEtNGEyOC05YWMxLTQ2NzI4NjUzMGVjMgAQAPnJY2jYgYNMscUqAznic3M%3D
+
+
+http://localhost:3000/#/accounts
+
+http://grafana.unice.cust.tasfrance.com/d/PUYzGbwWz/substrate-node-template-metrics?orgId=1
+
+https://bitbucket.org/cyrilnavessamuel/data_auction/commits/5fda9627517e5f401b0313222ab920d874a3cf75
+
+https://github.com/lucgerrits/substrate-node-template/blob/test-zero-fee/Dockerfile-installed-bionic
+

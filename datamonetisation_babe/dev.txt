@@ -1,0 +1,81 @@
+New Computer Development Setup:
+
+https://substrate.dev/docs/en/knowledgebase/getting-started/
+
+
+git clone -b v3.0.0+monthly-2021-05 --depth 1 https://github.com/substrate-developer-hub/substrate-node-template
+
+cd substrate-node-template
+
+cargo check -p node-template-runtime
+
+cargo build --release
+
+./target/release/node-template --dev --tmp --ws-external
+======================================================================
+Substrate UI
+
+git clone https://github.com/polkadot-js/apps/
+cd apps
+yarn config set httpsProxy http://localhost:3130
+
+yarn install
+yarn run
+
+When faced with electron problem--- switch to mobile network and then try the build again it solves
+
+Available at: http://localhost:3000
+
+
+=====================================================================
+Substrate Front End:
+
+git clone -b v3.0.0 https://github.com/substrate-developer-hub/substrate-node-template
+
+yarn config set httpProxy http://localhost:3130
+
+yarn install
+
+yarn start
+
+=======================
+
+CryptoKitties V1 toV2
+
+Main Tuto: https://www.shawntabrizi.com/substrate-collectables-workshop/#/Extras/Auction/finalizing-an-auction
+
+POE: Pallet Example https://substrate.dev/docs/en/tutorials/build-a-dapp/pallet#5-pallet-storage
+
+General Idea: https://substrate.dev/docs/en/knowledgebase/runtime/pallets
+
+FrameV1 to V2: https://substrate.dev/docs/en/knowledgebase/runtime/macros#frame-v1-vs-v2
+
+Upgarde Guidelines: https://substrate.dev/rustdocs/v3.0.0/frame_support/attr.pallet.html#upgrade-guidelines
+
+Example: https://substrate.dev/docs/en/knowledgebase/runtime/pallets#examples
+
+__________________________
+INK Smart Contract Tutorial
+https://substrate.dev/docs/en/tutorials/add-contracts-pallet/
+In case of errors:
+Refer always: https://github.com/paritytech/canvas-node/blob/master/runtime/src/lib.rs
+
+_____________________________
+All RunTime:
+https://github.com/paritytech/substrate/tree/v3.0.0/bin/node/runtime
+
+_________________
+Babe:
+Genesis:
+https://github.com/paritytech/substrate/blob/master/bin/node/cli/src/chain_spec.rs
+
+--------------------------
+
+Genesis Configuration:
+node/src/chain_spec.rs
+
+----------------------------
+Bridges
+https://github.com/paritytech/parity-bridges-common
+https://blaize.tech/article-type/how-to-launch-a-project-on-polkadot-dapp-parachain-and-bridge/#CREATE-A-CROSS-CHAIN-BRIDGE-TO-THE-POLKADOT-ECOSYSTEM
+

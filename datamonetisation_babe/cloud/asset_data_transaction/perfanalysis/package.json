@@ -1,0 +1,20 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^9.4.1",
+    "@polkadot/keyring": "^10.1.8",
+    "@polkadot/util": "^10.1.8",
+    "async": "^3.2.4",
+    "axios": "^0.27.2",
+    "qs": "^6.11.0"
+  }
+}

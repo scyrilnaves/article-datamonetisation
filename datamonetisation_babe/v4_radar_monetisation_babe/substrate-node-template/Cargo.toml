@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "node",
+    "pallets/template",
+    "runtime",
+]
+[profile.release]
+panic = "unwind"
+#Profiling
+#debug = 1

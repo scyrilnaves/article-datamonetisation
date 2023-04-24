@@ -1,0 +1,91 @@
+@startuml
+package com.renault.leat.radar_api {
+  class AssetFeedback {
+    - assetId : String
+    - assetToken : String
+    + AssetFeedback()
+    + getAssetId() : String
+    + getAssetToken() : String
+    + setAssetId(assetId : String)
+    + setAssetToken(assetToken : String)
+    + toString() : String
+  }
+  class AuthController {
+    - jwtHelper : JwtHelper
+    - passwordEncoder : PasswordEncoder
+    - userDetailsService : UserDetailsService
+    + AuthController(jwtHelper : JwtHelper, userDetailsService : UserDetailsService, passwordEncoder : PasswordEncoder)
+    + assetExists(username : String, password : String, assetId : String) : LoginResult
+    + assetServiceExists(username : String, password : String, assetServiceId : String) : LoginResult
+    + deployementStatus() : ResponseEntity<String>
+    + getAssetId(username : String, password : String) : ResponseEntity<String>
+    + getAssetServiceId(username : String, password : String) : ResponseEntity<String>
+    + getAssetServiceToken(username : String, password : String) : LoginResult
+    + getAssetServiceTokens(username : String, password : String) : ResponseEntity<String>
+    + getAssetToken(username : String, password : String) : LoginResult
+    + getAssetTokens(username : String, password : String) : ResponseEntity<String>
+    + getData() : ResponseEntity<RadarData>
+    + getDecryptedBid(username : String, password : String, encryptedData : String) : ResponseEntity<String>
+    + getEncryptedBid(username : String, password : String, data : String) : ResponseEntity<String>
+    + getPublicKey(username : String, password : String) : ResponseEntity<String>
+    + isDeployed(username : String, password : String) : ResponseEntity<String>
+    + login(username : String, password : String) : LoginResult
+    + postData(VehicleId : String, RadarData : String) : ResponseEntity<RadarData>
+    + setAssetServiceToken(username : String, password : String, AssetServiceId : String, AssetServiceToken : String) : ResponseEntity<AssetFeedback>
+    + setAssetToken(username : String, password : String, AssetId : String, AssetToken : String) : ResponseEntity<AssetFeedback>
+  }
+ 
+  class RadarData {
+    - carId : String
+    - radarDetails : String
+    + RadarData()
+    + getCarId() : String
+    + getRadarDetails() : String
+    + setCarId(carId : String)
+    + setRadarDetails(radarDetail : String)
+    + toString() : String
+  }
+
+  class Storage {
+    ~ assetIds : List<Integer> {static}
+    ~ assetIndex : AtomicInteger {static}
+    ~ assetRadarList : List<RadarData> {static}
+    ~ assetServiceIds : List<Integer> {static}
+    ~ assetServiceIndex : AtomicInteger {static}
+    ~ assetServiceTokens : List<AssetFeedback> {static}
+    ~ assetTokens : List<AssetFeedback> {static}
+    + Storage()
+    + addAssetId(inAssetId : Integer) {static}
+    + addAssetServiceId(inAssetServiceId : Integer) {static}
+    + addAssetServiceToken(inAssetFeedback : AssetFeedback) {static}
+    + addAssetToken(inAssetFeedback : AssetFeedback) {static}
+    + addRadarData(radarData : RadarData) {static}
+    + containsAssetId(assetId : String) : boolean {static}
+    + containsAssetServiceId(assetServiceId : String) : boolean {static}
+    + getAssetIds() : List<Integer> {static}
+    + getAssetIndex() : int {static}
+    + getAssetServiceIds() : List<Integer> {static}
+    + getAssetServiceIndex() : int {static}
+    + getAssetServiceTokens() : List<AssetFeedback> {static}
+    + getAssetTokens() : List<AssetFeedback> {static}
+    + getRadarData() : RadarData {static}
+    + incrementAssetIndex() {static}
+    + incrementAssetServiceIndex() {static}
+    + removeAssetId(astId : List<Integer>) {static}
+    + removeAssetServiceId(astServiceId : List<Integer>) {static}
+    + setAssetIds(inassetIds : List<Integer>) {static}
+    + setAssetServiceIds(inassetServiceIds : List<Integer>) {static}
+    + setAssetServiceTokens(inAssetServiceTokens : List<AssetFeedback>) {static}
+    + setAssetTokens(inAssetTokens : List<AssetFeedback>) {static}
+  }
+  class UserController {
+    - userDetailsService : UserDetailsService
+    + UserController(userDetailsService : UserDetailsService)
+    + getData(VehicleId : String, RadarData : String) : ResponseEntity<RadarData>
+    + getRadarData() : ResponseEntity<RadarData>
+    + getRadarService() : ResponseEntity<RadarData>
+    + getToken(AssetId : String, AssetToken : String) : ResponseEntity<AssetFeedback>
+    + getUser(authentication : Authentication) : UserDetails
+  }
+}
+@enduml

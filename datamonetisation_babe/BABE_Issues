@@ -1,0 +1,52 @@
+https://polkadot.js.org/docs/substrate/rpc/#grandpa
+
+{
+  setId: 0
+  best: {
+    round: 1,309
+    totalWeight: 5
+    thresholdWeight: 4
+    prevotes: {
+      currentWeight: 5
+      missing: []
+    }
+    precommits: {
+      currentWeight: 0
+      missing: [
+        5EAM8S4LXvwQx66jx3WngV6FSDj38yv3h3YxJnpPCRLS3jb2
+        5EAfTL69giARzZNQswFRUxbQw1ihzCSsXGkTxRwYvVsZZ7iG
+        5EmYCT1kddcQPj9CUcswV2dr6dpzQYSBpdurTuEGHXMdC9K3
+        5FXn1Gspo8AgczA2qx4QnkTANdsrVuY3NJNcNzEowisxUqWE
+        5Hh1HqkGxH2m2EsBQUoXC7f4VbVsFuk39iPnXBxcycguFyU8
+      ]
+    }
+  }
+  background: []
+}
+
+
+------------------------
+https://substrate.stackexchange.com/questions/214/recovering-from-stalled-finality-babe-grandpa
+----------------------
+
+2022-10-12 17:21:12 🔖 Pre-sealed block for proposal at 101. Hash now 0x7d3682f0d3cdbe500260bddb9267158d0d0cce21bd96a50d2aaa57345cfb7102, previously 0x79e5fc3d7d43bba6c6fe3fe7d8b43ba41b29e30ba86bec4df19eeb01758f6c01.
+2022-10-12 17:21:12 Error with block built on 0x8630fd71d58b4d3713648bc83fc15a5d7767bf7604d468fa368a018f1d348fa1: Import failed: Expected epoch change to happen at 0x7d3682f0d3cdbe500260bddb9267158d0d0cce21bd96a50d2aaa57345cfb7102, s277599212
+2022-10-12 17:21:16 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 6.0kiB/s ⬆ 7.5kiB/s
+2022-10-12 17:21:21 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 5.5kiB/s ⬆ 8.1kiB/s
+2022-10-12 17:21:26 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 8.1kiB/s ⬆ 7.3kiB/s
+2022-10-12 17:21:31 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 8.5kiB/s ⬆ 9.9kiB/s
+2022-10-12 17:21:36 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 6.3kiB/s ⬆ 7.6kiB/s
+2022-10-12 17:21:41 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 6.5kiB/s ⬆ 8.7kiB/s
+2022-10-12 17:21:46 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 4.8kiB/s ⬆ 7.0kiB/s
+2022-10-12 17:21:51 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 5.5kiB/s ⬆ 7.8kiB/s
+2022-10-12 17:21:54 🙌 Starting consensus session on top of parent 0x8630fd71d58b4d3713648bc83fc15a5d7767bf7604d468fa368a018f1d348fa1
+2022-10-12 17:21:54 🎁 Prepared block for proposing at 101 (245 ms) [hash: 0xcfb38e1db019e48cfc5571fac5031ab32a49a63da2b7b50a7c39eea422b3f099; parent_hash: 0x8630…8fa1; extrinsics (638): [0x9fe8…99fa, 0x3060…6bce, 0x0685…1e3b, 0xcf4c…2337, 0x6951…f8e5, 0x7aba…e651, 0x4714…2454, 0x0a35…1dd9, 0xa6c9…ed46, 0x62b1…0572, 0xde0e…0860, 0x445c…0a58, 0xba0a…4e9f, 0x0e98…ff46, 0x7b34…8a50, 0xd20b…500b, 0x2ed9…7266, 0x333b…c37a, 0x8c18…95b0, 0x93c6…b064, 0x5041…f104, 0x8e14…0981, 0xe0d2…915e, 0x9bf1…a2e9, 0x8d8d…4ed6, 0xa57a…5e89, 0x8e4d…68b5, 0x10ad…e778, 0x082d…adc9, 0x7fa9…255d, 0xa84d…4a4e, 0x3e5f…8f5e, 0x15f9…b98a, 0xcc3f…4600, 0xc476…5066, 0x5b0f…afa6, 0xd607…a0d6, 0x27fc…2b66, 0x4ec4…a328, 0x0c17…0c2c, 0x9a01…b89e, 0x0a2f…8fb4, 0xea73…1710, 0x88f5…3738, 0x240a…40b3, 0xeaa2…0fce, 0x15f2…688a, 0x8139…47e9, 0x2f49…68b3, 0x9af6…85e5, 0x6b0f…de88, 0x475e…3a3a, 0xb883…f7a1, 0x4e64…7ae4, 0x59f4…43fc, 0xe1c9…e35f, 0xcb38…8581, 0x39ca…0229, 0x3613…abcb, 0x5ae2…65ca, 0x11c5…0aa6, 0x12a5…86fe, 0x2069…041a, 0xb472…fc20, 0x422b…0b3e, 0x0000…cc25, 0x0c45…d255, 0x5b85…040f, 0x4af7…779e, 0xb2ee…8bf5, 0x0df0…9d31, 0xa156…d4e1, 0x132b…45b7, 0x4011…eaf8, 0x174b…6b41, 0x905f…cee8, 0xd093…ec0f, 0xe546…8d79, 0x8213…1465, 0x5ebe…2385, 0xdbc3…cfe0, 0x7f1b…6c9b, 0xe4dc…85f7, 0x5c93…ddb8, 0x6525…1b89, 0xacc2…b4c7, 0xe17e…9b92, 0x37f6…e427, 0x9410…37b1, 0xb5bd…0549, 0xea3e…02f3, 0xb35c…6790, 0x5e0e…4a1b, 0xc657…4ace, 0x11ab…3f4e, 0xae61…c6d2, 0xa78f…82c8, 0x8c8c…db25, 0xbe35…52fa, 0x2a69…78a8, 0x4d96…d7e4, 0xaf61…60fe, 0x1226…0128, 0xcae5…3cdd, 0x06a0…ea14, 0x8fa8…cb0e, 0x5927…2091, 0x3ff9…2c3c, 0x0bd5…937c, 0x68fb…34d5, 0xc152…44aa, 0x650b…dbc8, 0x7fac…395e, 0xbdc9…c3f5, 0x9687…cff3, 0xb763…5e9d, 0xe4
+
+022-10-12 17:22:06 🔖 Pre-sealed block for proposal at 101. Hash now 0x0ac1b2ded331376c186fef0c470f2a2de4a0301456d0aabf9893e7973dd3c36f, previously 0x1c1a817609450d340e01abfc63fb2d7aed5cd54e5a8f53fe8c1892807061dfe2.
+2022-10-12 17:22:06 Error with block built on 0x8630fd71d58b4d3713648bc83fc15a5d7767bf7604d468fa368a018f1d348fa1: Import failed: Expected epoch change to happen at 0x0ac1b2ded331376c186fef0c470f2a2de4a0301456d0aabf9893e7973dd3c36f, s277599221
+2022-10-12 17:22:06 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 5.5kiB/s ⬆ 7.1kiB/s
+2022-10-12 17:22:11 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 6.7kiB/s ⬆ 8.4kiB/s
+2022-10-12 17:22:16 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 5.7kiB/s ⬆ 7.8kiB/s
+2022-10-12 17:22:21 💤 Idle (5 peers), best: #100 (0x8630…8fa1), finalized #98 (0x6618…a7af), ⬇ 6.5kiB/s ⬆ 8.3kiB/s
+2022-10-12 17:22:24 🙌 Starting consensus session on top of parent 0x8630fd71d58b4d3713648bc83fc15a5d7767bf7604d468fa368a018f1d348fa1
+2022-10-12 17:22:24 🎁 Prepared block for proposing at 101 (239 ms) [hash: 0xa6541d44538aa535a198f0f38e976900e5b8bbbb1cf9945bc2f9db6e8827fba7; parent_hash: 0x8630…8fa1; extrinsics (696): [0x5baf…0968, 0x3060…6bce, 0x0685…1e3b, 0xcf4c…2337, 0x6951…f8e5, 0x7aba…e651, 0x4714…2454, 0x0a35…1dd9, 0xa6c9…ed46, 0x62b1…0572, 0xde0e…0860, 0x445c…0a58, 0xba0a…4e9f, 0x0e98…ff46, 0x7b34…8a50, 0xd20b…500b, 0x2ed9…7266, 0x333b…c37a, 0x8c18…95b0, 0x93c6…b064, 0x5041…f104, 0x8e14…0981, 0xe0d2…915e, 0x9bf1…a2e9, 0x8d8d…4ed6, 0xa57a…5e89, 0x8e4d…68b5, 0x10ad…e778, 0x082d…adc9, 0x7fa9…255d, 0xa84d…4a4e, 0x3e5f…8f5e, 0x15f9…b98a, 0xcc3f…4600, 0xc476…5066, 0x5b0f…afa6, 0xd607…a0d6, 0x27fc…2b66, 0x4ec4…a328, 0x0c17…0c2c, 0x9a01…b89e, 0x0a2f…8fb4, 0xea73…1710, 0x88f5…3738, 0x240a…40b3, 0xeaa2…0fce, 0x15f2…688a, 0x8139…47e9, 0x2f49…68b3, 0x9af6…85e5, 0x6b0f…de88, 0x475e…3a3a, 0xb883…f7a1, 0x4e64…7ae4, 0x59f4…43fc, 0xe1c9…e35f, 0xcb38…8581, 0x39ca…0229, 0x3613…abcb, 0x5ae2…65ca, 0x11c5…0aa6, 0x12a5…86fe, 0x2069…041a, 0xb472…fc20, 0x422b…0b3e, 0x0000…cc25, 0x0c45…d255, 0x5b85…040f, 0x4af7…779e, 0xb2ee…8bf5, 0x0df0…9d31, 0xa156…d4e1, 0x132b…45b7, 0x4011…eaf8, 0x174b…6b41, 0x905f…cee8, 
